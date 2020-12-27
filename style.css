@@ -1,0 +1,16 @@
+
+body{
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: #FF7979;
+}
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
