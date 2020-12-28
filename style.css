@@ -51,6 +51,10 @@ button:hover{
   line-height: 26px;
 }
 
+.firstCTA:hover{
+  background-color: #6c63a5;
+}
+
 .formContainer{
   background-color: white;
   border-radius: 10px;
@@ -113,6 +117,10 @@ input:focus{
   width: 460px;
   height: 56px;
   margin: 10px auto 8px auto;
+}
+
+.secondCTA:hover{
+  background-color:#5fd4a1;
 }
 
 .legalText{
