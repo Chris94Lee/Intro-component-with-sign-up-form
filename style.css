@@ -49,6 +49,7 @@ button:hover{
   border-radius:10px;
   font-size: 15px;
   line-height: 26px;
+  box-shadow:0 6px rgba(28, 28, 36, 0.2);
 }
 
 .firstCTA:hover{
@@ -66,6 +67,7 @@ button:hover{
   padding-bottom: 40px;
   box-sizing: content-box;
   margin-top: 24px;
+  box-shadow:0 8px rgba(28, 28, 36, 0.15);
 }
 
 span{
@@ -117,6 +119,7 @@ input:focus{
   width: 460px;
   height: 56px;
   margin: 10px auto 8px auto;
+  box-shadow:0 6px rgb(46, 180, 122);
 }
 
 .secondCTA:hover{
@@ -199,5 +202,12 @@ input:focus{
 @media only screen and (max-width:456px){
   .firstCTA{
     height: 88px;
+  }
+}
+
+@media only screen and (min-width:1500px){
+  .mainContainer{
+    height: 100vh;
+    margin: 0 auto;
   }
 }
