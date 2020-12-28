@@ -132,8 +132,10 @@ input:focus{
   margin: 0;
 }
 
-.legalText >strong{
+.legalText >a{
   color: #FF7979;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .attribution { 
