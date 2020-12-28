@@ -44,6 +44,7 @@ h1{
   border-style: none;
   border-radius:10px;
   font-size: 15px;
+  line-height: 26px;
 }
 
 .formContainer{
@@ -104,6 +105,7 @@ input:focus{
   border-style: none;
   border-radius: 10px;
   box-sizing: border-box;
+  font-weight: 600;
   width: 460px;
   height: 56px;
   margin: 10px auto 8px auto;
@@ -126,4 +128,64 @@ input:focus{
 
 .attribution a { 
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1000px){
+  .mainContainer{
+    flex-direction: column;
+    text-align: center;
+  } 
+
+  .leftSection{
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .rightSection{
+    margin-right: 0;
+    width: 60%;
+  }
+
+  .firstCTA{
+    width: 100%;
+    padding: 18px 66px 18px 66px;
+  }
+  input{
+    width: 80%;
+  }
+
+  .secondCTA{
+    width: 80%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 650px){
+  h1{
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+  }
+
+  .mainContainer{
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+
+  .leftSection{
+    height: auto;
+  }
+
+  .rightSection{
+    width: 90%;
+  }
+
+  
+}
+
+@media only screen and (max-width:456px){
+  .firstCTA{
+    height: 88px;
+  }
 }
